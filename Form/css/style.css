@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+}
+.container{
+    max-width: 1500px;
+    padding: 1rem;
+    margin:5rem auto;
+       
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    padding: .5rem 1rem;
+    width: 210px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 220px;
+    outline: none;
+    border: ;
+}
+
+button{
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: aqua;
+}
